@@ -1,0 +1,51 @@
+{
+  "name": "hector-sorts",
+  "version": "2.0.2",
+  "description": "A collection of sorting algorithms implemented in JavaScript.",
+  "main": "sortingAlgorithms.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:concurdev/hector-sorts.git"
+  },
+  "scripts": {
+    "test": "jest tests/sortingAlgorithms.test.js"
+  },
+  "files": [
+		"sortingAlgorithms.js"
+	],
+  "keywords": [
+    "sorting",
+    "algorithms",
+    "bubble sort",
+    "selection sort",
+    "insertion sort",
+    "merge sort",
+    "quick sort",
+    "heap sort",
+    "counting sort",
+    "radix sort",
+    "bucket sort",
+    "shell sort",
+    "cocktail shaker sort",
+    "comb sort",
+    "gnome sort",
+    "cycle sort",
+    "pancake sort",
+    "bogo sort",
+    "stooge sort",
+    "bitonic sort",
+    "bozo sort",
+    "timsort",
+    "introsort",
+    "strandSort",
+    "librarySort"
+  ],
+  "author": "Ashish Vashisht",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

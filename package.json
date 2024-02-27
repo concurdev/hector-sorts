@@ -1,6 +1,6 @@
 {
   "name": "hector-sorts",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A collection of sorting algorithms implemented in JavaScript.",
   "main": "sortingAlgorithms.js",
   "repository": {

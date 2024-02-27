@@ -1,3 +1,4 @@
 # Ignore node_modules directory
+.gitignore
 node_modules/
 index.js

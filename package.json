@@ -46,7 +46,7 @@
     "node": ">= 10"
   },
   "bugs": {
-    "url": "https://github.com/concurdev/sudoku-pro/issues"
+    "url": "https://github.com/concurdev/hector-sorts/issues"
   },
   "devDependencies": {
     "jest": "^29.7.0"

@@ -1,6 +1,6 @@
 {
   "name": "hector-sorts",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A collection of sorting algorithms implemented in JavaScript.",
   "main": "sortingAlgorithms.js",
   "repository": {
@@ -11,8 +11,8 @@
     "test": "jest tests/sortingAlgorithms.test.js"
   },
   "files": [
-		"sortingAlgorithms.js"
-	],
+    "sortingAlgorithms.js"
+  ],
   "keywords": [
     "sorting",
     "algorithms",
@@ -44,6 +44,9 @@
   "license": "MIT",
   "engines": {
     "node": ">= 10"
+  },
+  "bugs": {
+    "url": "https://github.com/concurdev/sudoku-pro/issues"
   },
   "devDependencies": {
     "jest": "^29.7.0"

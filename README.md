@@ -1,6 +1,6 @@
 # hector-sorts: Sorting Algorithms
 
-This npm package provides a collection of common sorting algorithms implemented in JavaScript. These sorting algorithms can be used to sort arrays of numbers or any comparable elements.
+This package provides a collection of common sorting algorithms implemented in JavaScript. These sorting algorithms can be used to sort arrays of numbers or any comparable elements.
 
 ## Installation
 
@@ -13,7 +13,7 @@ npm i hector-sorts
 ## Usage
 
 ```javascript
-const sortingAlgorithms = require('hector-sorts');
+const sortingAlgorithms = require("hector-sorts");
 
 // Example usage of sorting algorithms
 const arr = [5, 3, 8, 1, 2, 7, 4, 6];
@@ -72,7 +72,10 @@ console.log("Shell Sort:", sortingAlgorithms.shellSort(arr.slice()));
 // Space Complexity: O(1)
 
 // Cocktail Shaker Sort
-console.log("Cocktail Shaker Sort:", sortingAlgorithms.cocktailShakerSort(arr.slice()));
+console.log(
+  "Cocktail Shaker Sort:",
+  sortingAlgorithms.cocktailShakerSort(arr.slice())
+);
 // Time Complexity: O(n^2)
 // Space Complexity: O(1)
 
@@ -103,35 +106,41 @@ console.log("Bogosort:", sortingAlgorithms.bogoSort(arr.slice()));
 // Space Complexity: O(1)
 
 // Stooge Sort
-console.log('Stooge Sort:', sortingAlgorithms.stoogeSort([...arr]));
+console.log("Stooge Sort:", sortingAlgorithms.stoogeSort([...arr]));
 // Time Complexity: O(n^(log 3 / log 1.5)) = O(n^2.7095)
 // Space Complexity: O(1)
 
 // Bitonic Sort
 // Special Requirements: Bitonic sort requires the input size to be a power of 2.
-console.log('Bitonic Sort (Ascending):', sortingAlgorithms.bitonicSort([...arr]));
-console.log('Bitonic Sort (Descending):', sortingAlgorithms.bitonicSort([...arr], false));
+console.log(
+  "Bitonic Sort (Ascending):",
+  sortingAlgorithms.bitonicSort([...arr])
+);
+console.log(
+  "Bitonic Sort (Descending):",
+  sortingAlgorithms.bitonicSort([...arr], false)
+);
 // Time Complexity: O(log^2 n)
 // Space Complexity: O(n log n)
 
 // Timsort
-console.log('Timsort:', sortingAlgorithms.timSort([...arr]));
+console.log("Timsort:", sortingAlgorithms.timSort([...arr]));
 // Time Complexity: O(n log n)
 // Space Complexity: O(n)
 
 // Introsort
-console.log('Introsort:', sortingAlgorithms.introSort([...arr]));
+console.log("Introsort:", sortingAlgorithms.introSort([...arr]));
 // Time Complexity: O(n log n)
 // Space Complexity: O(log n)
 
 // Strand Sort
-console.log('Strand Sort:', sortingAlgorithms.strandSort([...arr]));
+console.log("Strand Sort:", sortingAlgorithms.strandSort([...arr]));
 // Time Complexity: O(n^2)
 // Space Complexity: O(n)
 
 // Library Sort
 // Special Requirements: Library sort works best for sorting numbers. It may not behave as expected for arrays containing non-numeric elements.
-console.log('Library Sort:', sortingAlgorithms.librarySort([...arr]));
+console.log("Library Sort:", sortingAlgorithms.librarySort([...arr]));
 // Time Complexity: O(n log n)
 // Space Complexity: O(n)
 ```
